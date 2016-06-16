@@ -1,0 +1,20 @@
+concept,name,concept_type
+name,Name,string
+year,Year,time
+country,Country,entity_domain
+sex,Sex,entity_domain
+ear_l5l1_noc_rt,Earnings dispersion among employees (Decile 5 / Decile 1),measure
+ear_l9l1_noc_rt,Earnings dispersion among employees (Decile 9 / Decile 1),measure
+ear_l9l5_noc_rt,Earnings dispersion among employees (Decile 9 / Decile 5),measure
+lap_wgva_noc_rt,Labour income share in Gross Domestic Product (GDP) - adjusted,measure
+ear_xees_mod_nb,Mean nominal monthly earnings of employees by type of scenario,measure
+ear_xflp_noc_rt,Female low pay rate,measure
+ear_xtlp_noc_rt,Low pay rate,measure
+ear_mnee_noc_nb,Median nominal monthly earnings of employees,measure
+ear_inee_noc_nb,Statutory nominal gross monthly minimum wage effective December 31st,measure
+lap_egva_noc_rt,Labour income share in Gross Domestic Product (GDP) - unadjusted,measure
+ear_xxgc_noc_rt,Gini coefficient,measure
+ear_xees_sex_nb,Mean nominal monthly earnings of employees by sex,measure
+ear_mree_noc_gr,"Mean real monthly earnings of employees, annual growth",measure
+ear_xfls_noc_rt,Share of women earning the low pay,measure
+ear_mree_mod_nb,Mean real monthly earnings of employees by type of scenario,measure
