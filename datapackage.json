@@ -1,0 +1,375 @@
+{
+    "name": "ddf--ilo--global_wage",
+    "language": {
+        "id": "en"
+    },
+    "resources": [
+        {
+            "path": "ddf--concepts.csv",
+            "name": "ddf--concepts",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "concept_type"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        },
+        {
+            "path": "ddf--datapoints--ear_inee_noc_nb--by--country--year.csv",
+            "name": "ddf--datapoints--ear_inee_noc_nb--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ear_inee_noc_nb"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--ear_l5l1_noc_rt--by--country--year.csv",
+            "name": "ddf--datapoints--ear_l5l1_noc_rt--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ear_l5l1_noc_rt"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--ear_l9l1_noc_rt--by--country--year.csv",
+            "name": "ddf--datapoints--ear_l9l1_noc_rt--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ear_l9l1_noc_rt"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--ear_l9l5_noc_rt--by--country--year.csv",
+            "name": "ddf--datapoints--ear_l9l5_noc_rt--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ear_l9l5_noc_rt"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--ear_mnee_noc_nb--by--country--year.csv",
+            "name": "ddf--datapoints--ear_mnee_noc_nb--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ear_mnee_noc_nb"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--ear_mree_mod_nb--by--country--year.csv",
+            "name": "ddf--datapoints--ear_mree_mod_nb--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ear_mree_mod_nb"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--ear_mree_noc_gr--by--country--year.csv",
+            "name": "ddf--datapoints--ear_mree_noc_gr--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ear_mree_noc_gr"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--ear_xees_mod_nb--by--country--year.csv",
+            "name": "ddf--datapoints--ear_xees_mod_nb--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ear_xees_mod_nb"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--ear_xees_sex_nb--by--country--sex--year.csv",
+            "name": "ddf--datapoints--ear_xees_sex_nb--by--country--sex--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ear_xees_sex_nb"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--ear_xflp_noc_rt--by--country--year.csv",
+            "name": "ddf--datapoints--ear_xflp_noc_rt--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ear_xflp_noc_rt"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--ear_xfls_noc_rt--by--country--year.csv",
+            "name": "ddf--datapoints--ear_xfls_noc_rt--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ear_xfls_noc_rt"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--ear_xtlp_noc_rt--by--country--year.csv",
+            "name": "ddf--datapoints--ear_xtlp_noc_rt--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ear_xtlp_noc_rt"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--ear_xxgc_noc_rt--by--country--year.csv",
+            "name": "ddf--datapoints--ear_xxgc_noc_rt--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ear_xxgc_noc_rt"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--lap_egva_noc_rt--by--country--year.csv",
+            "name": "ddf--datapoints--lap_egva_noc_rt--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "lap_egva_noc_rt"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--lap_wgva_noc_rt--by--country--year.csv",
+            "name": "ddf--datapoints--lap_wgva_noc_rt--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "lap_wgva_noc_rt"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--entities--country.csv",
+            "name": "ddf--entities--country",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "country"
+            }
+        },
+        {
+            "path": "ddf--entities--sex.csv",
+            "name": "ddf--entities--sex",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "sex"
+            }
+        }
+    ]
+}
